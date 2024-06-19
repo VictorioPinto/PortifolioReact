@@ -1,4 +1,6 @@
-import primeiroano from "./Primeiroano";
+import Curso from "./Curso";
+import Primeiroano from "./Primeiroano";
+import Segundoano from "./Segundoano";
 function Maineducacao() {
   return (
     <>
@@ -6,9 +8,12 @@ function Maineducacao() {
         <h1 class="titulo">Educação</h1>
         <div class="ahistoria">
           <div class="listas2" id="esquerda">
-            <primeiroano />
-            <div class="listas2"></div>
+            <Primeiroano />
+            <Segundoano />
           </div>
+          <div class="listas2">
+            <Curso />
+          </div>a
         </div>
       </div>
     </>

@@ -1,4 +1,4 @@
-function Primeiroano() {
+function Curso() {
   return (
     <>
       <div class="Bola"></div>
@@ -17,4 +17,4 @@ function Primeiroano() {
     </>
   );
 }
-export default Primeiroano;
+export default Curso;
